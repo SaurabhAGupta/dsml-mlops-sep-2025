@@ -93,3 +93,8 @@ curl --location 'http://13.239.113.54:9000/predict' \
 
 
    sudo usermod -aG docker $USER
+
+
+# how to use NGROK
+
+ngrok http http://127.0.0.1:5000
